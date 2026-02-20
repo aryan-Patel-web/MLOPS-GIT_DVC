@@ -7,6 +7,7 @@ data = {'Name': ['Alice', 'Bob', 'Charlie'],
     'City': ['New York', 'Los Angeles', 'Chicago']
     }
 
+
 df = pd.DataFrame(data)
 
 # # Adding new row to df for V2
@@ -23,8 +24,6 @@ os.makedirs(data_dir, exist_ok=True)
 
 # Define the file path
 file_path = os.path.join(data_dir, 'sample_data.csv')
-
-
 
 # Save the DataFrame to a CSV file, including column names
 df.to_csv(file_path, index=False)
