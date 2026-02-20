@@ -25,7 +25,9 @@ new_row_loc2 = {'Name': 'Anvesha', 'Age': 22, 'City': 'kanpur'}
 df.loc[len(df.index)] = new_row_loc2
 
 
-
+# # Adding new row to df for V4
+new_row_loc2 = {'Name': 'Anvesha yadav sister', 'Age': 25, 'City': 'kanpur'}
+df.loc[len(df.index)] = new_row_loc2
 
 
 
